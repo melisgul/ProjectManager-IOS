@@ -7,12 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84466F091F2B0EDA002D0F69 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84466F081F2B0EDA002D0F69 /* BaseViewController.swift */; };
+		847B4B471F25D0F200144428 /* CUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B4B461F25D0F200144428 /* CUIProgressView.swift */; };
+		847B4B491F25D13600144428 /* CUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B4B481F25D13600144428 /* CUILabel.swift */; };
+		847B4B4C1F25D37F00144428 /* CUIProgressBarViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B4B4B1F25D37F00144428 /* CUIProgressBarViewStyle.swift */; };
+		847B4B4E1F25D5E000144428 /* CUITextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B4B4D1F25D5E000144428 /* CUITextStyle.swift */; };
+		847B4B511F26099E00144428 /* AddNewPersonToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B4B501F26099E00144428 /* AddNewPersonToListViewController.swift */; };
+		847B4B541F2618C900144428 /* PasswordChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B4B531F2618C900144428 /* PasswordChangeViewController.swift */; };
 		848D90D41F1CADC6007E5AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D90D31F1CADC6007E5AF8 /* AppDelegate.swift */; };
 		848D90D61F1CADC6007E5AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D90D51F1CADC6007E5AF8 /* ViewController.swift */; };
 		848D90D91F1CADC6007E5AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848D90D71F1CADC6007E5AF8 /* Main.storyboard */; };
 		848D90DB1F1CADC6007E5AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848D90DA1F1CADC6007E5AF8 /* Assets.xcassets */; };
 		848D90DE1F1CADC6007E5AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848D90DC1F1CADC6007E5AF8 /* LaunchScreen.storyboard */; };
 		848D90E91F1CADC6007E5AF8 /* DENEMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D90E81F1CADC6007E5AF8 /* DENEMETests.swift */; };
+		848D90FA1F1CB10F007E5AF8 /* FirstOptionPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D90F91F1CB10F007E5AF8 /* FirstOptionPageViewController.swift */; };
+		848D90FD1F1CB330007E5AF8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D90FC1F1CB330007E5AF8 /* Person.swift */; };
+		848D90FF1F1CB342007E5AF8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D90FE1F1CB342007E5AF8 /* Task.swift */; };
+		848D91011F1CB35F007E5AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91001F1CB35F007E5AF8 /* Project.swift */; };
+		848D914C1F1F3F95007E5AF8 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D914B1F1F3F95007E5AF8 /* DatabaseManager.swift */; };
+		848D91791F1F8D69007E5AF8 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91771F1F8D69007E5AF8 /* ProfileTableViewCell.swift */; };
+		848D917A1F1F8D69007E5AF8 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848D91781F1F8D69007E5AF8 /* ProfileTableViewCell.xib */; };
+		848D917C1F1F9690007E5AF8 /* PersonInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D917B1F1F9690007E5AF8 /* PersonInfoViewController.swift */; };
+		848D917E1F1FA1EC007E5AF8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D917D1F1FA1EC007E5AF8 /* ProfileViewController.swift */; };
+		848D91801F1FEB7D007E5AF8 /* PersonalTasklnfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D917F1F1FEB7D007E5AF8 /* PersonalTasklnfoTableViewCell.swift */; };
+		848D91841F1FF4BA007E5AF8 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91831F1FF4BA007E5AF8 /* ProjectViewController.swift */; };
+		848D91861F1FF5CF007E5AF8 /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91851F1FF5CF007E5AF8 /* ProjectTableViewCell.swift */; };
+		848D91891F1FFC7A007E5AF8 /* ProjectInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91881F1FFC7A007E5AF8 /* ProjectInfoTableViewCell.swift */; };
+		848D918B1F1FFC91007E5AF8 /* ProjectInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D918A1F1FFC91007E5AF8 /* ProjectInfoViewController.swift */; };
+		848D918E1F208C89007E5AF8 /* ProjectTaskInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D918D1F208C89007E5AF8 /* ProjectTaskInfoViewController.swift */; };
+		848D91911F2097A8007E5AF8 /* PersonTaskInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91901F2097A8007E5AF8 /* PersonTaskInfoViewController.swift */; };
+		848D91941F20A1B9007E5AF8 /* AddNewPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91931F20A1B9007E5AF8 /* AddNewPersonViewController.swift */; };
+		848D91961F20A456007E5AF8 /* AddNewTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91951F20A456007E5AF8 /* AddNewTaskTableViewCell.swift */; };
+		848D91991F20CA08007E5AF8 /* AddNewTaskToProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91981F20CA08007E5AF8 /* AddNewTaskToProjectViewController.swift */; };
+		848D919C1F20CE45007E5AF8 /* AddNewProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D919B1F20CE45007E5AF8 /* AddNewProjectViewController.swift */; };
+		848D91A21F20E6DE007E5AF8 /* PersonalAccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91A11F20E6DE007E5AF8 /* PersonalAccessViewController.swift */; };
+		848D91A41F20F03F007E5AF8 /* PersonalAccessTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91A31F20F03F007E5AF8 /* PersonalAccessTaskTableViewCell.swift */; };
+		848D91A91F20F31A007E5AF8 /* PersonalTaskInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91A81F20F31A007E5AF8 /* PersonalTaskInfoViewController.swift */; };
+		848D91AB1F215D01007E5AF8 /* UpdateTaskProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D91AA1F215D01007E5AF8 /* UpdateTaskProgressViewController.swift */; };
+		84A4B2F11F223F6900667C95 /* DelayTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B2F01F223F6900667C95 /* DelayTaskViewController.swift */; };
+		84A4B2F51F22434600667C95 /* RemoveTaskFromPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B2F41F22434600667C95 /* RemoveTaskFromPersonViewController.swift */; };
+		84A4B2F81F22436100667C95 /* RemoveTaskFromPersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B2F71F22436100667C95 /* RemoveTaskFromPersonTableViewCell.swift */; };
+		84A4B3291F24D0E000667C95 /* CUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B3281F24D0E000667C95 /* CUIView.swift */; };
+		84A4B32B1F24D3C500667C95 /* CUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B32A1F24D3C500667C95 /* CUIButton.swift */; };
+		84A4B32D1F252E9800667C95 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B32C1F252E9800667C95 /* KeychainWrapper.swift */; };
+		84A4B32F1F252FDC00667C95 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4B32E1F252FDC00667C95 /* KeychainItemAccessibility.swift */; };
+		84C18AA51F27913D0074499E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C18A941F273D850074499E /* ObjectMapper.framework */; };
+		84C18AA61F27913D0074499E /* ObjectMapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84C18A941F273D850074499E /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84C18AB01F286BEC0074499E /* UpdatePersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C18AAF1F286BEC0074499E /* UpdatePersonViewController.swift */; };
+		84C18AB21F28B5F50074499E /* DelayProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C18AB11F28B5F50074499E /* DelayProjectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +65,86 @@
 			remoteGlobalIDString = 848D90CF1F1CADC6007E5AF8;
 			remoteInfo = DENEME;
 		};
+		84C18A931F273D850074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AAC8F7619F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOS";
+		};
+		84C18A951F273D850074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD1602FF1AC023D5000CD69A;
+			remoteInfo = "ObjectMapper-Mac";
+		};
+		84C18A971F273D850074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A2AD03D1B2C78540097E150;
+			remoteInfo = "ObjectMapper-watchOS";
+		};
+		84C18A991F273D850074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A05B7A61BE274BE00F19B53;
+			remoteInfo = "ObjectMapper-tvOS";
+		};
+		84C18A9B1F273D850074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6AAC8F8119F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOSTests";
+		};
+		84C18A9D1F273D850074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CD1603091AC023D6000CD69A;
+			remoteInfo = "ObjectMapper-MacTests";
+		};
+		84C18A9F1F273D850074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A05B7AF1BE274BE00F19B53;
+			remoteInfo = "ObjectMapper-tvOSTests";
+		};
+		84C18AA71F27913D0074499E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAC8F7519F03C2900E7A677;
+			remoteInfo = "ObjectMapper-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84C18AA91F27913D0074499E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84C18AA61F27913D0074499E /* ObjectMapper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		84466F081F2B0EDA002D0F69 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		847B4B461F25D0F200144428 /* CUIProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIProgressView.swift; sourceTree = "<group>"; };
+		847B4B481F25D13600144428 /* CUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUILabel.swift; sourceTree = "<group>"; };
+		847B4B4B1F25D37F00144428 /* CUIProgressBarViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIProgressBarViewStyle.swift; sourceTree = "<group>"; };
+		847B4B4D1F25D5E000144428 /* CUITextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUITextStyle.swift; sourceTree = "<group>"; };
+		847B4B501F26099E00144428 /* AddNewPersonToListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPersonToListViewController.swift; sourceTree = "<group>"; };
+		847B4B531F2618C900144428 /* PasswordChangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordChangeViewController.swift; sourceTree = "<group>"; };
 		848D90D01F1CADC6007E5AF8 /* DENEME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DENEME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848D90D31F1CADC6007E5AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848D90D51F1CADC6007E5AF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +155,40 @@
 		848D90E41F1CADC6007E5AF8 /* DENEMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DENEMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848D90E81F1CADC6007E5AF8 /* DENEMETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DENEMETests.swift; sourceTree = "<group>"; };
 		848D90EA1F1CADC6007E5AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848D90F91F1CB10F007E5AF8 /* FirstOptionPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstOptionPageViewController.swift; sourceTree = "<group>"; };
+		848D90FC1F1CB330007E5AF8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		848D90FE1F1CB342007E5AF8 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		848D91001F1CB35F007E5AF8 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		848D914B1F1F3F95007E5AF8 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		848D91771F1F8D69007E5AF8 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		848D91781F1F8D69007E5AF8 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		848D917B1F1F9690007E5AF8 /* PersonInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonInfoViewController.swift; sourceTree = "<group>"; };
+		848D917D1F1FA1EC007E5AF8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		848D917F1F1FEB7D007E5AF8 /* PersonalTasklnfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalTasklnfoTableViewCell.swift; sourceTree = "<group>"; };
+		848D91831F1FF4BA007E5AF8 /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		848D91851F1FF5CF007E5AF8 /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		848D91881F1FFC7A007E5AF8 /* ProjectInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectInfoTableViewCell.swift; sourceTree = "<group>"; };
+		848D918A1F1FFC91007E5AF8 /* ProjectInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectInfoViewController.swift; sourceTree = "<group>"; };
+		848D918D1F208C89007E5AF8 /* ProjectTaskInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTaskInfoViewController.swift; sourceTree = "<group>"; };
+		848D91901F2097A8007E5AF8 /* PersonTaskInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTaskInfoViewController.swift; sourceTree = "<group>"; };
+		848D91931F20A1B9007E5AF8 /* AddNewPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPersonViewController.swift; sourceTree = "<group>"; };
+		848D91951F20A456007E5AF8 /* AddNewTaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewTaskTableViewCell.swift; sourceTree = "<group>"; };
+		848D91981F20CA08007E5AF8 /* AddNewTaskToProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewTaskToProjectViewController.swift; sourceTree = "<group>"; };
+		848D919B1F20CE45007E5AF8 /* AddNewProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewProjectViewController.swift; sourceTree = "<group>"; };
+		848D91A11F20E6DE007E5AF8 /* PersonalAccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalAccessViewController.swift; sourceTree = "<group>"; };
+		848D91A31F20F03F007E5AF8 /* PersonalAccessTaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalAccessTaskTableViewCell.swift; sourceTree = "<group>"; };
+		848D91A81F20F31A007E5AF8 /* PersonalTaskInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalTaskInfoViewController.swift; sourceTree = "<group>"; };
+		848D91AA1F215D01007E5AF8 /* UpdateTaskProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTaskProgressViewController.swift; sourceTree = "<group>"; };
+		84A4B2F01F223F6900667C95 /* DelayTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayTaskViewController.swift; sourceTree = "<group>"; };
+		84A4B2F41F22434600667C95 /* RemoveTaskFromPersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveTaskFromPersonViewController.swift; sourceTree = "<group>"; };
+		84A4B2F71F22436100667C95 /* RemoveTaskFromPersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveTaskFromPersonTableViewCell.swift; sourceTree = "<group>"; };
+		84A4B3281F24D0E000667C95 /* CUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIView.swift; sourceTree = "<group>"; };
+		84A4B32A1F24D3C500667C95 /* CUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIButton.swift; sourceTree = "<group>"; };
+		84A4B32C1F252E9800667C95 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		84A4B32E1F252FDC00667C95 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		84C18A891F273D850074499E /* ObjectMapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectMapper.xcodeproj; path = "../../Downloads/ObjectMapper-master/ObjectMapper.xcodeproj"; sourceTree = "<group>"; };
+		84C18AAF1F286BEC0074499E /* UpdatePersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePersonViewController.swift; sourceTree = "<group>"; };
+		84C18AB11F28B5F50074499E /* DelayProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayProjectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C18AA51F27913D0074499E /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +210,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		847B4B451F25D04000144428 /* KeyChainFiles */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B32E1F252FDC00667C95 /* KeychainItemAccessibility.swift */,
+				84A4B32C1F252E9800667C95 /* KeychainWrapper.swift */,
+			);
+			name = KeyChainFiles;
+			sourceTree = "<group>";
+		};
+		847B4B4F1F26097400144428 /* AddNewPerson */ = {
+			isa = PBXGroup;
+			children = (
+				847B4B501F26099E00144428 /* AddNewPersonToListViewController.swift */,
+			);
+			name = AddNewPerson;
+			sourceTree = "<group>";
+		};
+		847B4B521F26186700144428 /* PasswordChange */ = {
+			isa = PBXGroup;
+			children = (
+				847B4B531F2618C900144428 /* PasswordChangeViewController.swift */,
+			);
+			name = PasswordChange;
+			sourceTree = "<group>";
+		};
 		848D90C71F1CADC6007E5AF8 = {
 			isa = PBXGroup;
 			children = (
+				84C18A891F273D850074499E /* ObjectMapper.xcodeproj */,
 				848D90D21F1CADC6007E5AF8 /* DENEME */,
 				848D90E71F1CADC6007E5AF8 /* DENEMETests */,
 				848D90D11F1CADC6007E5AF8 /* Products */,
@@ -77,12 +257,18 @@
 		848D90D21F1CADC6007E5AF8 /* DENEME */ = {
 			isa = PBXGroup;
 			children = (
+				847B4B451F25D04000144428 /* KeyChainFiles */,
+				84A4B3271F24D0C100667C95 /* CUIClasses */,
+				848D91A01F20E6C1007E5AF8 /* PersonelAccess */,
+				848D919F1F20E698007E5AF8 /* ManagerAccess */,
+				848D90FB1F1CB2D7007E5AF8 /* Classes */,
 				848D90D31F1CADC6007E5AF8 /* AppDelegate.swift */,
 				848D90D51F1CADC6007E5AF8 /* ViewController.swift */,
 				848D90D71F1CADC6007E5AF8 /* Main.storyboard */,
 				848D90DA1F1CADC6007E5AF8 /* Assets.xcassets */,
 				848D90DC1F1CADC6007E5AF8 /* LaunchScreen.storyboard */,
 				848D90DF1F1CADC6007E5AF8 /* Info.plist */,
+				84466F081F2B0EDA002D0F69 /* BaseViewController.swift */,
 			);
 			path = DENEME;
 			sourceTree = "<group>";
@@ -96,6 +282,197 @@
 			path = DENEMETests;
 			sourceTree = "<group>";
 		};
+		848D90FB1F1CB2D7007E5AF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				848D90FC1F1CB330007E5AF8 /* Person.swift */,
+				848D90FE1F1CB342007E5AF8 /* Task.swift */,
+				848D91001F1CB35F007E5AF8 /* Project.swift */,
+				848D914B1F1F3F95007E5AF8 /* DatabaseManager.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		848D91171F1DFEB2007E5AF8 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				848D91811F1FF1D2007E5AF8 /* personalInfo */,
+				848D91771F1F8D69007E5AF8 /* ProfileTableViewCell.swift */,
+				848D91781F1F8D69007E5AF8 /* ProfileTableViewCell.xib */,
+				848D917D1F1FA1EC007E5AF8 /* ProfileViewController.swift */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		848D91811F1FF1D2007E5AF8 /* personalInfo */ = {
+			isa = PBXGroup;
+			children = (
+				84C18AAE1F286BC50074499E /* UpdatePerson */,
+				847B4B4F1F26097400144428 /* AddNewPerson */,
+				848D91921F20A199007E5AF8 /* AddTaskToPerson */,
+				848D918F1F20978D007E5AF8 /* PersonTaskInfo */,
+				848D917F1F1FEB7D007E5AF8 /* PersonalTasklnfoTableViewCell.swift */,
+				848D917B1F1F9690007E5AF8 /* PersonInfoViewController.swift */,
+			);
+			name = personalInfo;
+			sourceTree = "<group>";
+		};
+		848D91821F1FF468007E5AF8 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				848D91871F1FFC61007E5AF8 /* ProjectInfo */,
+				848D91831F1FF4BA007E5AF8 /* ProjectViewController.swift */,
+				848D91851F1FF5CF007E5AF8 /* ProjectTableViewCell.swift */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		848D91871F1FFC61007E5AF8 /* ProjectInfo */ = {
+			isa = PBXGroup;
+			children = (
+				848D919A1F20CE31007E5AF8 /* AddNewProject */,
+				848D91971F20C9DA007E5AF8 /* AddNewTaskToProject */,
+				848D918C1F208C32007E5AF8 /* ProjectTaskInfo */,
+				848D91881F1FFC7A007E5AF8 /* ProjectInfoTableViewCell.swift */,
+				848D918A1F1FFC91007E5AF8 /* ProjectInfoViewController.swift */,
+			);
+			name = ProjectInfo;
+			sourceTree = "<group>";
+		};
+		848D918C1F208C32007E5AF8 /* ProjectTaskInfo */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B2EF1F223F3E00667C95 /* AdjustmentsOnTask */,
+				848D918D1F208C89007E5AF8 /* ProjectTaskInfoViewController.swift */,
+				84C18AB11F28B5F50074499E /* DelayProjectViewController.swift */,
+			);
+			name = ProjectTaskInfo;
+			sourceTree = "<group>";
+		};
+		848D918F1F20978D007E5AF8 /* PersonTaskInfo */ = {
+			isa = PBXGroup;
+			children = (
+				848D91901F2097A8007E5AF8 /* PersonTaskInfoViewController.swift */,
+			);
+			name = PersonTaskInfo;
+			sourceTree = "<group>";
+		};
+		848D91921F20A199007E5AF8 /* AddTaskToPerson */ = {
+			isa = PBXGroup;
+			children = (
+				848D91931F20A1B9007E5AF8 /* AddNewPersonViewController.swift */,
+				848D91951F20A456007E5AF8 /* AddNewTaskTableViewCell.swift */,
+			);
+			name = AddTaskToPerson;
+			sourceTree = "<group>";
+		};
+		848D91971F20C9DA007E5AF8 /* AddNewTaskToProject */ = {
+			isa = PBXGroup;
+			children = (
+				848D91981F20CA08007E5AF8 /* AddNewTaskToProjectViewController.swift */,
+			);
+			name = AddNewTaskToProject;
+			sourceTree = "<group>";
+		};
+		848D919A1F20CE31007E5AF8 /* AddNewProject */ = {
+			isa = PBXGroup;
+			children = (
+				848D919B1F20CE45007E5AF8 /* AddNewProjectViewController.swift */,
+			);
+			name = AddNewProject;
+			sourceTree = "<group>";
+		};
+		848D919F1F20E698007E5AF8 /* ManagerAccess */ = {
+			isa = PBXGroup;
+			children = (
+				848D90F91F1CB10F007E5AF8 /* FirstOptionPageViewController.swift */,
+				848D91821F1FF468007E5AF8 /* Project */,
+				848D91171F1DFEB2007E5AF8 /* Person */,
+			);
+			name = ManagerAccess;
+			sourceTree = "<group>";
+		};
+		848D91A01F20E6C1007E5AF8 /* PersonelAccess */ = {
+			isa = PBXGroup;
+			children = (
+				847B4B521F26186700144428 /* PasswordChange */,
+				848D91A51F20F245007E5AF8 /* PersonalTasks */,
+				848D91A11F20E6DE007E5AF8 /* PersonalAccessViewController.swift */,
+				848D91A31F20F03F007E5AF8 /* PersonalAccessTaskTableViewCell.swift */,
+			);
+			name = PersonelAccess;
+			sourceTree = "<group>";
+		};
+		848D91A51F20F245007E5AF8 /* PersonalTasks */ = {
+			isa = PBXGroup;
+			children = (
+				848D91A81F20F31A007E5AF8 /* PersonalTaskInfoViewController.swift */,
+				848D91AA1F215D01007E5AF8 /* UpdateTaskProgressViewController.swift */,
+			);
+			name = PersonalTasks;
+			sourceTree = "<group>";
+		};
+		84A4B2EF1F223F3E00667C95 /* AdjustmentsOnTask */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B2F31F22432400667C95 /* RemoveTaskFromPerson */,
+				84A4B2F21F22431E00667C95 /* delayTask */,
+			);
+			name = AdjustmentsOnTask;
+			sourceTree = "<group>";
+		};
+		84A4B2F21F22431E00667C95 /* delayTask */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B2F01F223F6900667C95 /* DelayTaskViewController.swift */,
+			);
+			name = delayTask;
+			sourceTree = "<group>";
+		};
+		84A4B2F31F22432400667C95 /* RemoveTaskFromPerson */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B2F41F22434600667C95 /* RemoveTaskFromPersonViewController.swift */,
+				84A4B2F71F22436100667C95 /* RemoveTaskFromPersonTableViewCell.swift */,
+			);
+			name = RemoveTaskFromPerson;
+			sourceTree = "<group>";
+		};
+		84A4B3271F24D0C100667C95 /* CUIClasses */ = {
+			isa = PBXGroup;
+			children = (
+				84A4B3281F24D0E000667C95 /* CUIView.swift */,
+				84A4B32A1F24D3C500667C95 /* CUIButton.swift */,
+				847B4B461F25D0F200144428 /* CUIProgressView.swift */,
+				847B4B481F25D13600144428 /* CUILabel.swift */,
+				847B4B4B1F25D37F00144428 /* CUIProgressBarViewStyle.swift */,
+				847B4B4D1F25D5E000144428 /* CUITextStyle.swift */,
+			);
+			name = CUIClasses;
+			sourceTree = "<group>";
+		};
+		84C18A8A1F273D850074499E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C18A941F273D850074499E /* ObjectMapper.framework */,
+				84C18A961F273D850074499E /* ObjectMapper.framework */,
+				84C18A981F273D850074499E /* ObjectMapper.framework */,
+				84C18A9A1F273D850074499E /* ObjectMapper.framework */,
+				84C18A9C1F273D850074499E /* ObjectMapper-iOSTests.xctest */,
+				84C18A9E1F273D850074499E /* ObjectMapper-MacTests.xctest */,
+				84C18AA01F273D850074499E /* ObjectMapper-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C18AAE1F286BC50074499E /* UpdatePerson */ = {
+			isa = PBXGroup;
+			children = (
+				84C18AAF1F286BEC0074499E /* UpdatePersonViewController.swift */,
+			);
+			name = UpdatePerson;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,10 +483,12 @@
 				848D90CC1F1CADC6007E5AF8 /* Sources */,
 				848D90CD1F1CADC6007E5AF8 /* Frameworks */,
 				848D90CE1F1CADC6007E5AF8 /* Resources */,
+				84C18AA91F27913D0074499E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84C18AA81F27913D0074499E /* PBXTargetDependency */,
 			);
 			name = DENEME;
 			productName = DENEME;
@@ -166,6 +545,12 @@
 			mainGroup = 848D90C71F1CADC6007E5AF8;
 			productRefGroup = 848D90D11F1CADC6007E5AF8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84C18A8A1F273D850074499E /* Products */;
+					ProjectRef = 84C18A891F273D850074499E /* ObjectMapper.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				848D90CF1F1CADC6007E5AF8 /* DENEME */,
@@ -173,6 +558,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84C18A941F273D850074499E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 84C18A931F273D850074499E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C18A961F273D850074499E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 84C18A951F273D850074499E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C18A981F273D850074499E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 84C18A971F273D850074499E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C18A9A1F273D850074499E /* ObjectMapper.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ObjectMapper.framework;
+			remoteRef = 84C18A991F273D850074499E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C18A9C1F273D850074499E /* ObjectMapper-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-iOSTests.xctest";
+			remoteRef = 84C18A9B1F273D850074499E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C18A9E1F273D850074499E /* ObjectMapper-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-MacTests.xctest";
+			remoteRef = 84C18A9D1F273D850074499E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		84C18AA01F273D850074499E /* ObjectMapper-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ObjectMapper-tvOSTests.xctest";
+			remoteRef = 84C18A9F1F273D850074499E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		848D90CE1F1CADC6007E5AF8 /* Resources */ = {
@@ -182,6 +619,7 @@
 				848D90DE1F1CADC6007E5AF8 /* LaunchScreen.storyboard in Resources */,
 				848D90DB1F1CADC6007E5AF8 /* Assets.xcassets in Resources */,
 				848D90D91F1CADC6007E5AF8 /* Main.storyboard in Resources */,
+				848D917A1F1F8D69007E5AF8 /* ProfileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +637,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B4B4E1F25D5E000144428 /* CUITextStyle.swift in Sources */,
+				84C18AB01F286BEC0074499E /* UpdatePersonViewController.swift in Sources */,
+				848D917C1F1F9690007E5AF8 /* PersonInfoViewController.swift in Sources */,
+				848D91A91F20F31A007E5AF8 /* PersonalTaskInfoViewController.swift in Sources */,
+				847B4B491F25D13600144428 /* CUILabel.swift in Sources */,
+				84466F091F2B0EDA002D0F69 /* BaseViewController.swift in Sources */,
+				848D91991F20CA08007E5AF8 /* AddNewTaskToProjectViewController.swift in Sources */,
+				848D91A21F20E6DE007E5AF8 /* PersonalAccessViewController.swift in Sources */,
+				847B4B511F26099E00144428 /* AddNewPersonToListViewController.swift in Sources */,
+				848D918B1F1FFC91007E5AF8 /* ProjectInfoViewController.swift in Sources */,
+				84A4B32B1F24D3C500667C95 /* CUIButton.swift in Sources */,
+				847B4B541F2618C900144428 /* PasswordChangeViewController.swift in Sources */,
+				848D91941F20A1B9007E5AF8 /* AddNewPersonViewController.swift in Sources */,
+				848D914C1F1F3F95007E5AF8 /* DatabaseManager.swift in Sources */,
+				848D90FD1F1CB330007E5AF8 /* Person.swift in Sources */,
+				848D91891F1FFC7A007E5AF8 /* ProjectInfoTableViewCell.swift in Sources */,
+				848D91861F1FF5CF007E5AF8 /* ProjectTableViewCell.swift in Sources */,
+				848D90FA1F1CB10F007E5AF8 /* FirstOptionPageViewController.swift in Sources */,
+				848D91AB1F215D01007E5AF8 /* UpdateTaskProgressViewController.swift in Sources */,
 				848D90D61F1CADC6007E5AF8 /* ViewController.swift in Sources */,
+				848D919C1F20CE45007E5AF8 /* AddNewProjectViewController.swift in Sources */,
+				84A4B32D1F252E9800667C95 /* KeychainWrapper.swift in Sources */,
+				848D90FF1F1CB342007E5AF8 /* Task.swift in Sources */,
+				848D91791F1F8D69007E5AF8 /* ProfileTableViewCell.swift in Sources */,
+				848D91911F2097A8007E5AF8 /* PersonTaskInfoViewController.swift in Sources */,
+				84C18AB21F28B5F50074499E /* DelayProjectViewController.swift in Sources */,
+				847B4B4C1F25D37F00144428 /* CUIProgressBarViewStyle.swift in Sources */,
+				84A4B2F51F22434600667C95 /* RemoveTaskFromPersonViewController.swift in Sources */,
+				848D917E1F1FA1EC007E5AF8 /* ProfileViewController.swift in Sources */,
+				84A4B3291F24D0E000667C95 /* CUIView.swift in Sources */,
+				848D918E1F208C89007E5AF8 /* ProjectTaskInfoViewController.swift in Sources */,
+				848D91A41F20F03F007E5AF8 /* PersonalAccessTaskTableViewCell.swift in Sources */,
+				84A4B2F81F22436100667C95 /* RemoveTaskFromPersonTableViewCell.swift in Sources */,
+				848D91841F1FF4BA007E5AF8 /* ProjectViewController.swift in Sources */,
 				848D90D41F1CADC6007E5AF8 /* AppDelegate.swift in Sources */,
+				848D91801F1FEB7D007E5AF8 /* PersonalTasklnfoTableViewCell.swift in Sources */,
+				84A4B2F11F223F6900667C95 /* DelayTaskViewController.swift in Sources */,
+				847B4B471F25D0F200144428 /* CUIProgressView.swift in Sources */,
+				84A4B32F1F252FDC00667C95 /* KeychainItemAccessibility.swift in Sources */,
+				848D91961F20A456007E5AF8 /* AddNewTaskTableViewCell.swift in Sources */,
+				848D91011F1CB35F007E5AF8 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +696,11 @@
 			isa = PBXTargetDependency;
 			target = 848D90CF1F1CADC6007E5AF8 /* DENEME */;
 			targetProxy = 848D90E51F1CADC6007E5AF8 /* PBXContainerItemProxy */;
+		};
+		84C18AA81F27913D0074499E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ObjectMapper-iOS";
+			targetProxy = 84C18AA71F27913D0074499E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,24 +822,40 @@
 		848D90EE1F1CADC6007E5AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DENEME/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.DENEME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.0;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		848D90EF1F1CADC6007E5AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DENEME/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.DENEME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.0;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -408,6 +906,7 @@
 				848D90EF1F1CADC6007E5AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		848D90F01F1CADC6007E5AF8 /* Build configuration list for PBXNativeTarget "DENEMETests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +915,7 @@
 				848D90F21F1CADC6007E5AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
